@@ -143,22 +143,6 @@ curl -s -X POST http://127.0.0.1:8000/api/v1/sessions \
 
 ---
 
-## 🧰 For Developers
-
-To run linters and hooks:
-
-```bash
-poetry run pre-commit run --all-files
-```
-
-To format automatically:
-
-```bash
-poetry run black .
-poetry run isort .
-```
-
----
 
 ## 🧑‍💻 Author
 
