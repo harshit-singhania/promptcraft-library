@@ -14,7 +14,7 @@ DEFAULT_TIMEOUT = int(os.getenv("OPENROUTER_TIMEOUT", "60"))
 # instantiate SDK client pointing to OpenRouter
 _client = OpenAI(
     base_url=OPENROUTER_BASE,
-    api_key=OPENROUTER_API_KEY or os.getenv("OPENAI_API_KEY"),
+    api_key=OPENROUTER_API_KEY or os.getenv("OPENROUTER_API_KEY"),
 )
 
 
